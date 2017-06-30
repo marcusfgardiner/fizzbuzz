@@ -1,18 +1,18 @@
-def multiple_3_5
-  puts "Please enter a number"
-  inputs = gets.chomp.to_i
-  if inputs %3 == 0 && inputs %5 == 0
-    puts "Fizzbuzz"
-  elsif inputs %3 == 0
-    puts "Fizz"
-  elsif inputs %5 == 0
-    puts "Buzz"
-  else
-    puts inputs
-  end
-end
-
-multiple_3_5
+# def multiple_3_5
+#   puts "Please enter a number"
+#   inputs = gets.chomp.to_i
+#   if inputs %3 == 0 && inputs %5 == 0
+#     puts "Fizzbuzz"
+#   elsif inputs %3 == 0
+#     puts "Fizz"
+#   elsif inputs %5 == 0
+#     puts "Buzz"
+#   else
+#     puts inputs
+#   end
+# end
+#
+# multiple_3_5
 
 
 #def fizzbuzz
