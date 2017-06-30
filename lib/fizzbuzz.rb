@@ -1,5 +1,5 @@
 def fizzbuzz(number)
-    if number == 15
+    if number % 15 == 0
         return 'fizzbuzz'
     elsif number % 5 == 0
         return 'buzz'
@@ -8,3 +8,8 @@ def fizzbuzz(number)
     else return number
     end
 end
+
+# range = (1..100)
+# for i in range
+#     puts fizzbuzz(i)
+# end
