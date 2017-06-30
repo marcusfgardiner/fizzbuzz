@@ -13,4 +13,7 @@ describe 'fizzbuzz' do
     it 'returns 4 because number is not multiple of 3 or 5' do
         expect(fizzbuzz(4)).to eq 4
     end
+    it 'returns "fizz" when passed 6' do
+        expect(fizzbuzz(6)).to eq 'fizz'
+    end
 end
